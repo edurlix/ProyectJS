@@ -1,0 +1,60 @@
+body{
+    background: url(/Proyecto-js/img/hojas.jpg);
+    background-attachment: fixed;
+}
+
+/* header */
+#logo{
+    background: #064635;
+    color: #F4EEA9;
+}
+
+/* nav */
+#menu{
+    background: #519259;
+}
+
+#menu ul li:hover{
+    background: #064635;
+}
+
+#menu a{
+    color: #F4EEA9;
+}
+
+/* Content */
+.post h2{
+    color: #519259;
+}
+
+.button-more{
+    background: #064635;
+    color: #F4EEA9;
+}
+
+/* aside */
+#sidebar h4{
+    color: #519259;
+}
+
+/* login */
+form input[type="text"], 
+form input[type="password"],
+form input[type="email"]{
+    color: #519259;
+}
+
+form input[type="submit"]{
+    background: #064635;
+    color: #F4EEA9;
+}
+
+footer{
+    color: #064635;
+    background: #F0BB62;
+}
+
+.up{
+    background: #064635;
+    color: #F4EEA9;
+}

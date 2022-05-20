@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto Javascript</title>
+        <!-- style -->
+        <link rel="stylesheet" href="/Proyecto-js/css/style.css">
+        <link rel="stylesheet" href="/Proyecto-js/css/hojas.css" id="theme">
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- slider -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!-- Momentjs -->
+        <script src="https://momentjs.com/downloads/moment.js"></script>
+        <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+        <!-- JS -->
+        <script src="/Proyecto-js/js/main.js"></script>
+    </head>
+    <body>
+        <div id="select-theme">
+            <div id="to-green"></div>
+            <div id="to-red"></div>
+            <div id="to-blue"></div>
+        </div>
+        <section id="global">
+            <!-- HEADER -->
+            <header>
+                <div id="logo">
+                    <h1>Proyecto JS</h1>
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="#">CALCULADORA</a></li>
+                        <li><a href="Reloj.html">RELOJ</a></li>
+                        <li><a href="about.html">SOBRE MI</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- BANNER -->
+            <div id="slider">
+                <div class="bxslider">
+                    <div>
+                        <img src="/Proyecto-js/img/hojas.jpg" title="hojas">
+                    </div>
+                    <div>
+                        <img src="/Proyecto-js/img/rojo.jpg" title="rojo">
+                    </div>
+                    <div>
+                        <img src="/Proyecto-js/img/cielo.jpg" title="cielo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- content -->
+            <section id="content">
+                <div id="posts">
+                    <!-- se carga el posts desde JS -->
+                    <!-- <article class="post">
+                        <h2>Titulo del Articulo</h2>
+                        <span class="date">fecha de publicacion</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales ante at sagittis feugiat. Maecenas quis nisi non ex suscipit suscipit. Proin felis est, molestie et pulvinar eget, porttitor sit amet nunc. Nam hendrerit tincidunt justo quis laoreet. In et tincidunt risus. Donec ullamcorper, enim nec sodales fringilla, ligula velit pretium arcu, eget dignissim enim mauris vitae diam. Proin porta sodales libero a mattis. Maecenas auctor magna quis purus tempor, ac suscipit lectus laoreet. Donec eu ultrices tellus, et sollicitudin purus. Vestibulum consequat bibendum ex non auctor. Ut blandit lacinia pharetra. Pellentesque sollicitudin accumsan neque, id luctus tortor semper nec. Pellentesque ac libero eu metus sodales mollis.
+                        </p>
+                        <a href="#" class="button-more">Leer mas</a>
+                    </article>
+                    <article class="post">
+                        <h2>Titulo del Articulo</h2>
+                        <span class="date">fecha de publicacion</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales ante at sagittis feugiat. Maecenas quis nisi non ex suscipit suscipit. Proin felis est, molestie et pulvinar eget, porttitor sit amet nunc. Nam hendrerit tincidunt justo quis laoreet. In et tincidunt risus. Donec ullamcorper, enim nec sodales fringilla, ligula velit pretium arcu, eget dignissim enim mauris vitae diam. Proin porta sodales libero a mattis. Maecenas auctor magna quis purus tempor, ac suscipit lectus laoreet. Donec eu ultrices tellus, et sollicitudin purus. Vestibulum consequat bibendum ex non auctor. Ut blandit lacinia pharetra. Pellentesque sollicitudin accumsan neque, id luctus tortor semper nec. Pellentesque ac libero eu metus sodales mollis.
+                        </p>
+                        <a href="#" class="button-more">Leer mas</a>
+                    </article> -->
+                </div>
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4>Quien soy?</h4>
+                        <img src="/Proyecto-js/img/caracol.jpg">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quia hic eius amet facere iusto, voluptatum optio aliquid nobis nisi placeat veritatis quidem atque unde possimus eveniet saepe cumque enim?
+                        </p>
+                    </div>
+                    <div id="login">
+                        <h4><span>Login</span></h4>
+                        <form>
+                            <label for="name">Usuario</label>
+                            <input type="text" name="name" id="name">
+                            <label for="email">Email</label>
+                            <input type="email" name="email">
+                            <label for="pass">Contraseña</label>
+                            <input type="password" name="name">
+                            <input type="submit" value="Entrar">
+                        </form>
+                    </div>
+                </aside>
+            </section>
+        </section>
+        <footer>
+            Proyecto de Edurlix &copy;
+            
+            <a href="#" class="up"> UP </a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    background: url(/Proyecto-js/img/cielo.jpg);
+    background-attachment: fixed;
+}
+
+/* header */
+#logo{
+    background: #242F9B;
+    color: #DBDFFD;
+}
+
+/* nav */
+#menu{
+    background: #9BA3EB;
+}
+
+#menu ul li:hover{
+    background: #242F9B;
+}
+
+#menu a{
+    color: #DBDFFD;
+}
+
+/* Content */
+.post h2{
+    color: #9BA3EB;
+}
+
+.button-more{
+    background: #242F9B;
+    color: #DBDFFD;
+}
+
+/* aside */
+#sidebar h4{
+    color: #9BA3EB;
+}
+
+/* login */
+form input[type="text"], 
+form input[type="password"],
+form input[type="email"]{
+    color: #9BA3EB;
+}
+
+form input[type="submit"]{
+    background: #242F9B;
+    color: #DBDFFD;
+}
+
+footer{
+    color: #9BA3EB;
+    background: #DBDFFD;
+}
+
+.up{
+    background: #242F9B;
+    color: #DBDFFD;
+}

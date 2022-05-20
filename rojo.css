@@ -1,0 +1,60 @@
+body{
+    background: url(/Proyecto-js/img/rojo.jpg);
+    background-attachment: fixed;
+}
+
+/* header */
+#logo{
+    background: #630606;
+    color: #D9CE3F;
+}
+
+/* nav */
+#menu{
+    background: #890F0D;
+}
+
+#menu ul li:hover{
+    background: #630606;
+}
+
+#menu a{
+    color: #D9CE3F;
+}
+
+/* Content */
+.post h2{
+    color: #890F0D;
+}
+
+.button-more{
+    background: #630606;
+    color: #D9CE3F;
+}
+
+/* aside */
+#sidebar h4{
+    color: #890F0D;
+}
+
+/* login */
+form input[type="text"], 
+form input[type="password"],
+form input[type="email"]{
+    color: #890F0D;
+}
+
+form input[type="submit"]{
+    background: #630606;
+    color: #D9CE3F;
+}
+
+footer{
+    color: #890F0D;
+    background: #D9CE3F;
+}
+
+.up{
+    background: #630606;
+    color: #D9CE3F;
+}
