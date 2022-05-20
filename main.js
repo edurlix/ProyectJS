@@ -59,13 +59,13 @@ $(document).ready(function(){
     //select theme
     var theme = $('#theme'); //es el id del link css
     $('#to-green').click(function(){
-        theme.attr('href','/Proyecto-js/css/hojas.css')
+        theme.attr('href','hojas.css')
     });
     $('#to-red').click(function(){
-        theme.attr('href','/Proyecto-js/css/rojo.css')
+        theme.attr('href','rojo.css')
     });
     $('#to-blue').click(function(){
-        theme.attr('href','/Proyecto-js/css/cielo.css')
+        theme.attr('href','cielo.css')
     });
 
     //scroll arriba
