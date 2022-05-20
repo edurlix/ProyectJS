@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto Javascript</title>
+        <!-- style -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="hojas.css" id="theme">
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="jquery-ui.js"></script>
+        <link rel="stylesheet" href="jquery-ui.css">
+        <link rel="stylesheet" href="jquery-ui.structure.css">
+        <link rel="stylesheet" href="jquery-ui.theme.css">
+        <!-- Plugin Validator -->
+        <!-- Momentjs -->
+        <script src="https://momentjs.com/downloads/moment.js"></script>
+        <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+        <!-- JS -->
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="select-theme">
+            <div id="to-green"></div>
+            <div id="to-red"></div>
+            <div id="to-blue"></div>
+        </div>
+        <section id="global">
+            <!-- HEADER -->
+            <header>
+                <div id="logo">
+                    <h1>Proyecto JS</h1>
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="Reloj.html">RELOJ</a></li>
+                        <li><a href="about.html">SOBRE MI</a></li>
+                        <li><a href="Contact.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- content -->
+            <section id="content">
+                <div id="box">
+                    <!-- Contacto desde JS -->
+                    <h2>Contacto</h2>
+                    <form action="" method="post" id="form_contact">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name"  >
+
+                        <label for="lastname">Apellidos</label>
+                        <input type="text" name="lastname"  >
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+
+                        <label for="gender" >Sexo</label>
+                        <select name="gender" required>
+                            <option value="Hombre">Hombre</option>
+                            <option value="Mujer">Mujer</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+
+                        <label for="date" required>Fecha de Nacimiento</label>
+                        <input type="text" name="date" >
+
+                        <label for="age">Edad</label>
+                        <input type="number" name="age" required>
+
+                        <input type="submit" value="enviar">
+                    </form>
+                </div>
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4>Quien soy?</h4>
+                        <img src="caracol.jpg">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quia hic eius amet facere iusto, voluptatum optio aliquid nobis nisi placeat veritatis quidem atque unde possimus eveniet saepe cumque enim?
+                        </p>
+                    </div>
+                    <div id="login">
+                        <h4><span>Login</span></h4>
+                        <form>
+                            <label for="name">Usuario</label>
+                            <input type="text" name="name" id="name">
+                            <label for="email">Email</label>
+                            <input type="email" name="email">
+                            <label for="pass">Contraseña</label>
+                            <input type="password" name="name">
+                            <input type="submit" value="Entrar">
+                        </form>
+                    </div>
+                </aside>
+            </section>
+        </section>
+        <footer>
+            Proyecto de Edurlix &copy;
+            
+            <a href="#" class="up"> UP </a>
+        </footer>
+    </body>
+</html>
