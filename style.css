@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url(/Proyecto-js/img/hojas.jpg);
+    background: url(hojas.jpg);
     background-attachment: fixed;
 
 }
@@ -123,7 +123,7 @@ h2{
     text-align: center;
     line-height: 10px;
     color: #519259;
-    background: url(/Proyecto-js/img/lines.png) repeat-x;
+    background: url(lines.png) repeat-x;
     padding: 5px;
 }
 
